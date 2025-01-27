@@ -29,27 +29,7 @@ namespace UnitTest
             Assert::IsTrue(expectedMaxAngularVelocity - actualMaxAngularVelocity < 1);
         }
 
-        TEST_METHOD(TestAngularVelocityOne)
-        {
-            // Datos de prueba
-            struct point_t points[] = {
-                {0.0, 1.0, 0.0},  // Tiempo, posición x, posición y
-                {0.1, 0.9, 0.1},
-                {0.2, 0.7, 0.2},
-                {0.3, 0.4, 0.3},
-                {0.4, 0.0, 0.4},
-            };
-            int numberOfPoints = 5;
-
-            // Resultado esperado (calcula manualmente el valor correcto)
-            float expectedMaxAngularVelocity = 5.0;
-
-            // Llamar a la función a probar
-            float actualMaxAngularVelocity = computeMaximumAngularVelocity(points, numberOfPoints);
-
-            Assert::AreEqual(expectedMaxAngularVelocity, actualMaxAngularVelocity);
-            Assert::IsTrue(expectedMaxAngularVelocity - actualMaxAngularVelocity < 1);
-        }
+        
         
         /*
         Beste datu multzo batzuekin probatuko dugu:

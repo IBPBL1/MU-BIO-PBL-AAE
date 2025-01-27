@@ -7,7 +7,7 @@
 int main(int argc, char ** argv) {// argc (programaria sartzen dizkiogun fitxategi kopurua da) eta argv (sartutako fitxategiaren balioak "array" modura gordetzen du)
 	if (argc != 2) { // 2-ren berdina izan behar da, 2 baino gutxiago baldin bada programak ez ditu beharrezko dato kopurua jasotzen, eta bi baino gehiago baldin bada datu gehiegi dauzka programa aurrera eramateko.
 		printf("Abiadura angeluar maximoa kalkulatzeko programa, Tracker-ek sortutako koma-balio bereizien txt fitxategi batetik abiatuta\n");
-		printf("Usage: %s <datuak>\n", argv[0]); //argv[0]-ren esanahia honako hau da: Exekutagarriaren izena edo ibilbidea.
+		printf("Usage: %s <Proba1>\n", argv[0]); //argv[0]-ren esanahia honako hau da: Exekutagarriaren izena edo ibilbidea.
 
 		return -1; // Ez du ezer ere bueltatzen programak.
 	}
