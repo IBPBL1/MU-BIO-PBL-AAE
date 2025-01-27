@@ -21,7 +21,7 @@ int main(int argc, char ** argv) {// argc (programaria sartzen dizkiogun fitxate
 	}
 	float maximumAngularVelocity = computeMaximumAngularVelocity(points, numberOfPoints); //maximumAngularVelocity-k abiadura angeluar altueta hartzen du eta zenbaki hamartarretan itzultzen du.
 	
-	printf("Maximum angular velocity: %f\n", maximumAngularVelocity);
+	printf("Maximum angular velocity: %f rad/s\n", maximumAngularVelocity);
 
 	freePoints(&points); //Memoria dinamikoa askatzen du
 	return 0;
